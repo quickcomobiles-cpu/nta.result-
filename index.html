@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NATIONAL ELIGIBILITY CUM ENTRANCE TEST (UG) - 2026</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f7f6; margin: 0; padding: 0; }
+        
+        /* Main Top Header Banner Frame */
+        .header-banner { width: 100%; max-width: 1200px; margin: auto; padding: 15px 20px; display: flex; justify-content: space-between; align-items: flex-start; background: white; box-sizing: border-box; }
+        .logo-text-box { display: flex; flex-direction: column; font-size: 11px; color: #222222; line-height: 1.4; width: 28%; font-weight: normal; }
+        .logo-text-box b { font-size: 12px; color: #111111; }
+        .logo-text-box.right-side { text-align: right; width: 28%; }
+        .green-tag { display: inline-block; background-color: #28a745; color: white; font-size: 9px; padding: 1px 4px; font-weight: bold; border-radius: 2px; margin-top: 2px; margin-bottom: 3px; }
+        .header-text { text-align: center; font-weight: bold; color: #222222; font-size: 14px; line-height: 1.4; flex-grow: 1; padding: 0 10px; }
+        
+        .blue-divider-bar { width: 100%; height: 35px; background-color: #002e5b; margin: 0; padding: 0; }
+        
+        /* Central Card Structural Grid */
+        .main-container { max-width: 660px; margin: 60px auto; background: white; border: 1px solid #d2d6de; box-shadow: 0px 2px 8px rgba(0,0,0,0.05); border-radius: 3px; overflow: hidden; }
+        .card-header { background-color: #002e5b; color: white; padding: 10px 15px; font-weight: bold; font-size: 15px; display: flex; align-items: center; gap: 8px; }
+        .card-body { padding: 25px 30px; display: flex; flex-direction: column; align-items: flex-start; width: 100%; box-sizing: border-box; }
+        
+        /* Form Table Sizing Layout */
+        .form-table-grid { width: 100%; max-width: 550px; border-collapse: collapse; margin-bottom: 15px; }
+        .form-table-grid td { padding: 8px 0; vertical-align: middle; }
+        
+        /* Left Label Column Dimensions */
+        .cell-label { width: 40%; font-size: 12px; color: #333333; text-align: left; font-weight: normal; padding-right: 10px; box-sizing: border-box; }
+        .cell-label span { color: green; font-weight: bold; }
+        .cell-label.right-align { text-align: right; padding-right: 25px; color: #555555; }
+        
+        /* Right Output Column Dimensions */
+        .cell-field { width: 60%; text-align: left; }
+        .input-blank-box { width: 100%; padding: 6px 8px; border: 1px solid #cbd5e1; font-size: 14px; border-radius: 2px; box-sizing: border-box; }
+        
+        /* Captcha Alignment Component */
+        .captcha-flex-wrapper { display: flex; align-items: center; gap: 12px; }
+        .captcha-image-box { background: #00008b; color: white; font-weight: bold; font-size: 18px; letter-spacing: 2px; padding: 5px 18px; font-family: monospace; border-radius: 2px; user-select: none; }
+        .refresh-btn { font-size: 20px; color: #28a745; cursor: pointer; background: none; border: none; font-weight: bold; padding: 0; margin: 0; display: flex; align-items: center; }
+        
+        /* Submit Button Block Offset */
+        .button-offset-block { width: 100%; padding-left: 40%; box-sizing: border-box; text-align: left; }
+        .submit-btn { background-color: #198754; color: white; border: none; padding: 7px 22px; font-weight: normal; font-size: 13px; border-radius: 3px; cursor: pointer; text-transform: uppercase; }
+        .submit-btn:hover { background-color: #157347; }
+        
+        .footer { width: 100%; background-color: #001f3f; color: white; text-align: center; padding: 12px 0; font-size: 11px; position: fixed; bottom: 0; left: 0; letter-spacing: 0.3px; }
+    </style>
+</head>
+<body>
+
+    <!-- Header Frame Text Layout -->
+    <div class="header-banner">
+        <div class="logo-text-box">
+            Department of Higher Education<br>
+            <b>Ministry of Education</b><br>
+            Government of India
+        </div>
+        <div class="header-text">
+            NATIONAL ELIGIBILITY CUM ENTRANCE TEST (UG) - 2026<br>
+            <span style="font-weight: normal; font-size: 13px; color: #444444; display: block; margin-top: 3px;">Score Card</span>
+        </div>
+        <div class="logo-text-box right-side">
+            राष्ट्रीय परीक्षा एजेंसी<br>
+            <b>National Testing Agency</b><br>
+            <span class="green-tag">Excellence in Assessment</span><br>
+            राष्ट्रीय आयुर्विज्ञान आयोग<br>
+            <b>National Medical Commission</b>
+        </div>
+    </div>
+
+    <div class="blue-divider-bar"></div>
+
+    <!-- Center Card Structure -->
+    <div class="main-container">
+        <div class="card-header">🔒 View Result</div>
+        <div class="card-body">
+            
+            <table class="form-table-grid">
+                <!-- Row 1: Input Field Row -->
+                <tr>
+                    <td class="cell-label">Enter CAPTCHA<span>(case sensitive)</span> :</td>
+                    <td class="cell-field">
+                        <input type="text" id="enteredCaptcha" class="input-blank-box" autocomplete="off">
+                    </td>
+                </tr>
+                <!-- Row 2: CAPTCHA Visual Display Row -->
+                <tr>
+                    <td class="cell-label right-align">CAPTCHA :</td>
+                    <td class="cell-field">
+                        <div class="captcha-flex-wrapper">
+                            <div class="captcha-image-box">kQ49bX</div>
+                            <button type="button" class="refresh-btn" onclick="alert('Security Pin Refreshed!')">&#10227;</button>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+            <!-- Row 3: Submit Green Button -->
+            <div class="button-offset-block">
+                <button onclick="handleVerification()" class="submit-btn">SUBMIT</button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Page Standard Footer -->
+    <div class="footer">
+        This site is designed and hosted by NIC PEP Division. The contents are provided by NTA. For any further information, please contact NTA.
+    </div>
+
+    <script>
+        function handleVerification() {
+            var officialCaptchaCode = "kQ49bX";
+            var userValue = document.getElementById("enteredCaptcha").value.trim();
+
+            if (userValue === officialCaptchaCode) {
+                //
+                window.location.href = "https://drive.google.com/file/d/1J60ngryRKtIkQO4h_asE60wVFfYjBkcx/view?usp=sharing";
+            } else {
+                alert("Incorrect CAPTCHA! Code is case sensitive. Please enter kQ49bX.");
+            }
+        }
+    </script>
+
+</body>
+</html>
